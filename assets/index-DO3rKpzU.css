@@ -6,7 +6,7 @@
   .hero-v2 { position: relative !important; overflow: hidden !important; }
   .hero-v2 .invitation-hero__photo { object-position: center 12% !important; }
   .hero-v2__shade { background: linear-gradient(180deg, rgba(255, 248, 230, 0.05) 0%, rgba(50, 20, 10, 0.22) 50%, rgba(25, 10, 5, 0.75) 100%) !important; }
-  .hero-v2__content { inset: auto auto clamp(22px, 4svh, 44px) 50% !important; transform: translate(-50%, 0) !important; width: min(100% - 28px, 360px) !important; max-width: 360px !important; padding: 0 !important; text-align: center !important; }
+  .hero-v2__content { inset: auto auto calc(clamp(18px, 3svh, 36px) + 6cm) 50% !important; transform: translate(-50%, 0) !important; width: min(100% - 28px, 360px) !important; max-width: 360px !important; padding: 0 !important; text-align: center !important; }
   .hero-v2__eyebrow { font-size: 13px !important; line-height: 1.4 !important; margin-bottom: 6px !important; text-shadow: 0 1px 4px rgba(0,0,0,0.8), 0 2px 10px rgba(0,0,0,0.6) !important; color: #ffffff !important; }
   .hero-v2__names h1, .hero-v2__names h2 { font-size: clamp(38px, 11.5vw, 48px) !important; line-height: 0.95 !important; text-shadow: 0 2px 4px rgba(0,0,0,0.8), 0 4px 16px rgba(0,0,0,0.6) !important; color: #ffffff !important; }
   .hero-v2__names > div { color: #f7d590 !important; margin: 7px auto !important; text-shadow: 0 1px 4px rgba(0,0,0,0.8) !important; font-size: 10px !important; }
