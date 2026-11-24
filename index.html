@@ -73,7 +73,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script type="module" crossorigin src="/assets/index-BLQ10aRV.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-DO3rKpzU.css">
-  </head>
+  
+  <style id="custom-christian-wedding-styles">
+    /* Hero mobile adjustments: church stands majestic on top, names & countdown below */
+    @media (max-width: 899px) {
+      .hero-v2 {
+        position: relative !important;
+        overflow: hidden !important;
+      }
+      .hero-v2 .invitation-hero__photo {
+        object-position: center 12% !important;
+      }
+      .hero-v2__shade {
+        background: linear-gradient(180deg, rgba(255, 248, 230, 0.05) 0%, rgba(50, 20, 10, 0.22) 50%, rgba(25, 10, 5, 0.75) 100%) !important;
+      }
+      .hero-v2__content {
+        inset: auto auto clamp(22px, 4svh, 44px) 50% !important;
+        transform: translate(-50%, 0) !important;
+        width: min(100% - 28px, 360px) !important;
+        max-width: 360px !important;
+        padding: 0 !important;
+        text-align: center !important;
+      }
+      .hero-v2__eyebrow {
+        font-size: 13px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 6px !important;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.8), 0 2px 10px rgba(0,0,0,0.6) !important;
+        color: #ffffff !important;
+      }
+      .hero-v2__names h1,
+      .hero-v2__names h2 {
+        font-size: clamp(38px, 11.5vw, 48px) !important;
+        line-height: 0.95 !important;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.8), 0 4px 16px rgba(0,0,0,0.6) !important;
+        color: #ffffff !important;
+      }
+      .hero-v2__names > div {
+        color: #f7d590 !important;
+        margin: 7px auto !important;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.8) !important;
+        font-size: 10px !important;
+      }
+      .hero-v2__names > div span {
+        background: rgba(247, 213, 144, 0.8) !important;
+      }
+      .hero-v2__days {
+        margin-top: 12px !important;
+      }
+      .hero-v2__days > div {
+        background: rgba(255, 255, 255, 0.92) !important;
+        backdrop-filter: blur(8px) !important;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2) !important;
+      }
+    }
+  </style>
+</head>
   <body class="bg-[#2A080C] text-[#FDFBF7] antialiased selection:bg-[#D4AF37]/30 selection:text-[#FFF8E7] overflow-x-hidden">
     <div id="initial-loader" role="status" aria-live="polite">Loading...</div>
     <div id="root"></div>
